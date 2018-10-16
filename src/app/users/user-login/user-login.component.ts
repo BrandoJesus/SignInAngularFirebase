@@ -34,8 +34,8 @@ export class UserLoginComponent implements OnInit {
     .catch((error) => { console.log(error); })
   }
 
-  logoutGoogle(){
-    this.authService.logoutGoogle()
+  logout(){
+    this.authService.logout()
     .then((data) => {      
       console.log(data);
       alert("se cerro la Sesion");

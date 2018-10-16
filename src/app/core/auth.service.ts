@@ -22,6 +22,7 @@ export class AuthService {
     return this.afAuth.auth.signOut();
   }
 
+  
   doGoogleLogin(){
     return new Promise<any>((resolve, reject) => {
       let provider = new firebase.auth.GoogleAuthProvider();

@@ -10,7 +10,7 @@ import * as firebase from 'firebase/app';
 export class AuthService {
 
   constructor( public afAuth: AngularFireAuth) { }
-
+ 
   loginGoogle() {
     return this.afAuth.auth.signInWithPopup(new firebase.auth.GoogleAuthProvider());
   }

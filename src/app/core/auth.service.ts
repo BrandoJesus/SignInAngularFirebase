@@ -21,7 +21,7 @@ export class AuthService {
   logout() {
     return this.afAuth.auth.signOut();
   }
-
+  20160434
   
   doGoogleLogin(){
     return new Promise<any>((resolve, reject) => {

@@ -19,7 +19,6 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { RegisterPageComponent } from './components/register-page/register-page.component';
 import { LoginPageComponent } from './components/login-page/login-page.component';
 import { PrivadoPageComponent } from './components/privado-page/privado-page.component';
-import { NotFoundpageComponent } from './components/not-foundpage/not-foundpage.component';
 import { NotFoundPageComponent } from './components/not-found-page/not-found-page.component'
 
 @NgModule({
@@ -32,7 +31,7 @@ import { NotFoundPageComponent } from './components/not-found-page/not-found-pag
     RegisterPageComponent,
     LoginPageComponent,
     PrivadoPageComponent,
-    NotFoundpageComponent,
+    
     NotFoundPageComponent
   ],
   imports: [
